@@ -23,7 +23,7 @@ const Mission = () => {
           </span>
         </p>
         <div className="w-full flex items-center justify-center sm:hidden lg:flex">
-          <Image src={vision} alt="" className="w-3/4 ml-auto sm:w-full" />
+          <Image src={vision} alt="mission" placeholder="blur" className="w-3/4 ml-auto sm:w-full" />
         </div>
       </div>
       <div className="w-full lg:w-1/2 flex ">
@@ -31,7 +31,7 @@ const Mission = () => {
           <AccordionComp />
         </div>
         <div className="hidden sm:flex w-1/2 justify-center items-end lg:hidden">
-          <Image src={vision} alt="" className="w-full h-1/2" />
+          <Image src={vision} alt="mission" placeholder="blur" className="w-full h-1/2" />
         </div>
       </div>
     </section>

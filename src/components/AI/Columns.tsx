@@ -39,6 +39,7 @@ const Columns = () => {
               <Image
                 src={img}
                 alt={title}
+                placeholder="blur"
                 className="flex-1 transition-all duration-500 ease-in-out transform hover:scale-125"
               />
             </div>

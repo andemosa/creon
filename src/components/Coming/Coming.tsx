@@ -55,7 +55,8 @@ const Coming = () => {
           <div className="w-full flex items-center justify-center overflow-hidden">
             <Image
               src={img}
-              alt=""
+              alt={title}
+              placeholder="blur"
               className="flex-1 transition-all duration-500 ease-in-out transform hover:scale-125"
             />
           </div>
